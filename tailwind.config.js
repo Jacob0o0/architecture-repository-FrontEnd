@@ -1,14 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        heading: ['Poppins', 'sans-serif'],
+        body: ['Montserrat', 'sans-serif'],
+      },
       colors: {
         negroPrincipal: '#1a1a1a',
         blancoPrincipal: '#FEFEFF',
-        amarilloPrincipal: '#f1e71e'
+        amarilloPrincipal: '#f1e71e',
       },
       borderRadius: {
         '15px': '15px',
@@ -18,5 +20,5 @@ module.exports = {
       },
     },
   },
-plugins: [],
-}
+  plugins: [],
+};

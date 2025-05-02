@@ -1,5 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import "@fontsource/poppins"; // o un peso específico como:
+import "@fontsource/poppins/400.css";
+import "@fontsource/montserrat";
+import "@fontsource/montserrat/400.css";
+
+
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
