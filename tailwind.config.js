@@ -11,6 +11,7 @@ module.exports = {
         negroPrincipal: '#1a1a1a',
         blancoPrincipal: '#FEFEFF',
         amarilloPrincipal: '#f1e71e',
+        grisPrincipal: '#F8F7F5',
       },
       borderRadius: {
         '15px': '15px',

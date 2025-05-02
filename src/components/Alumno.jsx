@@ -2,7 +2,7 @@ import React from 'react'
 
 function Alumno({ ruta, usuario, rol, nombreCompleto }) {
   return (
-    <section class="w-auto h-auto flex flex-row bg-blancoPrincipal text-negroPrincipal p-5 m-10 rounded-15px shadow-xl">
+    <section class="w-auto h-auto flex flex-row bg-blancoPrincipal text-negroPrincipal p-5 m-10 rounded-xl shadow-md">
         <img src={ ruta } alt="User img" class="w-24 h-24 rounded-full mr-3 object-cover"/>
         <div class="flex flex-col justify-center space-y-3">
             <div class="flex flex-col sm:flex-row justify-between">

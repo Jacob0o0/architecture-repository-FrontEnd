@@ -32,30 +32,30 @@ function Editor() {
     };
 
     return (
-        <main class="z-0 h-full w-full bg-blancoPrincipal flex flex-col items-center space-y-10 overflow-y-auto">
+        <main class="z-0 h-full w-full bg-grisPrincipal flex flex-col items-center space-y-10 overflow-y-auto">
             <Banner ruta="../imgs/cover_home.png" titulo="Editor" ocultarTitulo={false} />
 
             <Alumno ruta="../imgs/empty-person.png" usuario={"Karla06"} rol={"Alumno"} nombreCompleto={"Karla Abigail Tovar Salazar"}></Alumno>
 
-            <div class="max-w-full flex justify-center space-x-4">
+            <div class="max-w-full flex justify-center pb-12 space-x-4">
                 <div class="max-w-[85vw] space-y-3">
                     <button onClick={() => handleSectionClick('escritorio')} 
-                            class="m-2 p-3 bg-amarilloPrincipal rounded-15px text-3xl hover:scale-125 transition-transform transition-opacity transition-colors duration-500 ease-in-out">
+                            class="m-2 p-3 bg-amarilloPrincipal rounded-15px text-3xl hover:scale-125 transition-transform duration-500 ease-in-out">
                         <i class="bi bi-person-workspace"></i>
                     </button>
                     <button onClick={() => handleSectionClick('edificio')} 
-                            class="m-2 p-3 bg-amarilloPrincipal rounded-15px text-3xl hover:scale-125 transition-transform transition-opacity transition-colors duration-500 ease-in-out">
+                            class="m-2 p-3 bg-amarilloPrincipal rounded-15px text-3xl hover:scale-125 transition-transform  duration-500 ease-in-out">
                         <i class="bi bi-bank"></i>
                         <i class="bi bi-plus"></i>
                     </button>
                     <button onClick={() => handleSectionClick('espacio')} 
-                            class="m-2 p-3 bg-amarilloPrincipal rounded-15px text-3xl hover:scale-125 transition-transform transition-opacity transition-colors duration-500 ease-in-out">
-                        <i class="bi bi-buildings-fill"></i>
+                            class="m-2 p-3 bg-amarilloPrincipal rounded-15px text-3xl hover:scale-125 transition-transform duration-500 ease-in-out">
+                        <i class="bi bi-buildings"></i>
                         <i class="bi bi-plus"></i>
                     </button>
                     <button onClick={() => handleSectionClick('personaje')} 
-                            class="m-2 p-3 bg-amarilloPrincipal rounded-15px text-3xl hover:scale-125 transition-transform transition-opacity transition-colors duration-500 ease-in-out">
-                        <i class="bi bi-people-fill"></i>
+                            class="m-2 p-3 bg-amarilloPrincipal rounded-15px text-3xl hover:scale-125 transition-transform duration-500 ease-in-out">
+                        <i class="bi bi-people"></i>
                         <i class="bi bi-plus"></i>
                     </button>
                 </div>

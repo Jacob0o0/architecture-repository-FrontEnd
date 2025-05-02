@@ -22,8 +22,8 @@ function Tarjeta({ ruta }) {
                         </div>
                     </div>
                     <div class="pt-5 flex flex-row justify-center items-center space-x-5">
-                        <button class="p-3 bg-amarilloPrincipal rounded-15px shadow-md hover:scale-125 transition-transform transition-opacity transition-colors duration-500 ease-in-out">Ver detalles</button>
-                        <button class="px-3 py-2 bg-amarilloPrincipal rounded-full shadow-md hover:scale-125 transition-transform transition-opacity transition-colors duration-500 ease-in-out">
+                        <button class="p-3 bg-amarilloPrincipal rounded-15px shadow-md hover:scale-125 transition-transform  duration-500 ease-in-out">Ver detalles</button>
+                        <button class="px-3 py-2 bg-amarilloPrincipal rounded-full shadow-md hover:scale-125 transition-transform  duration-500 ease-in-out">
                             <i class="bi bi-pencil-fill"></i>
                         </button>
                     </div>

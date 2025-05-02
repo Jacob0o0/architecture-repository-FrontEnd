@@ -50,7 +50,7 @@ function Edificio() {
 
     return (
         <div class="w-[100%] mb-10 flex flex-col items-center justify-center space-y-6" id="formulario">
-            <div class="w-[80%] flex items-center justify-start bg-blancoPrincipal">
+            <div class="w-[80%] flex items-center justify-start">
                 <h3 class="text-3xl font-semibold">Añadir Edificio</h3>
             </div>
 
@@ -175,15 +175,15 @@ function Edificio() {
                             <input class="block w-full text-sm text-gray-900 border rounded cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none" type="file" placeholder="Nombre del edificio" name="imagen_ubicacion" id="imagen_ubicacion"/>
                         </div>
 
-                        <div class="hidden md:col-span-5 m-2 p-2 flex justify-center bg-red-300 rounded" id="alerta_campos_vacios">
+                        <div class=" md:col-span-5 m-2 p-2 flex justify-center bg-red-300 rounded" id="alerta_campos_vacios">
                             Existen campos vacíos.
                         </div>
 
-                        <div class="hidden md:col-span-5 m-2 p-2 flex justify-center bg-green-300 rounded" id="alerta_exito">
+                        <div class=" md:col-span-5 m-2 p-2 flex justify-center bg-green-300 rounded" id="alerta_exito">
                             Edificio subido con éxito.
                         </div>
 
-                        <input class="h-10 md:col-start-3 mt-5 mb-5 bg-amarilloPrincipal border rounded shadow-sm hover:scale-125 transition-transform transition-opacity transition-colors duration-500 ease-in-out" type="submit" name="subirEdif"/>
+                        <input class="h-10 md:col-start-3 mt-5 mb-5 bg-amarilloPrincipal border rounded shadow-sm hover:scale-125 transition-opacity  duration-500 ease-in-out" type="submit" name="subirEdif"/>
                     </form>
                 </div>
             </div>
