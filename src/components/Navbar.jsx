@@ -84,7 +84,7 @@ function Navbar() {
           className={`mt-auto text-blancoPrincipal rounded-15px flex ${isOpen ? 'flex-col items-start' : 'flex-col items-center'} justify-center`}
         >
           <img 
-            src="/imgs/Profile.png"
+            src="/imgs/profile2.png"
             alt='Profile'
             className="w-12 h-12 object-contain"
           />

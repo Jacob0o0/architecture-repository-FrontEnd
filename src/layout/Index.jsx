@@ -15,13 +15,13 @@ function Index() {
     <main className="z-0 h-full w-full bg-grisPrincipal flex flex-col items-center space-y-10 overflow-y-auto mx-auto">
         <Banner ruta="imgs/main-index.jpg" titulo="Mi Título" ocultarTitulo={true} />
 
-        <div className="bg-blancoPrincipal w-full max-w-7xl flex flex-col items-center p-6 sm:p-10 rounded-2xl mb-10 relative">
+        <div className="bg-blancoPrincipal w-full max-w-2xl md:max-w-5xl 2xl:max-w-7xl flex flex-col items-center p-6 sm:p-10 rounded-2xl mb-10 relative">
         <div className="w-full">
           <div 
             className="flex justify-center cursor-pointer"
             onClick={toggleInfo}
           >
-            <h2 className="font-medium text-4xl text-center">Información</h2>
+            <h2 className="font-medium text-xl md:text-2xl 2xl:text-4xl text-center">Información</h2>
             
           </div>
 
@@ -35,7 +35,7 @@ function Index() {
                 />
               </div>
               <div className="w-full sm:w-1/2 flex flex-col items-start space-y-6">
-                <div className="container mt-3 text-lg space-y-4">
+                <div className="container mt-3 text-xs md:text-sm 2xl:text-lg space-y-4">
                   <p>
                     El siglo XIX es importante para México por representar los primeros pasos como nación independiente y con ello, un tiempo de profundos cambios sociales, políticos y económicos. Un tiempo convulso, caracterizado por constantes luchas y contiendas ideológicas en esa constante búsqueda por definir el rumbo del naciente país. El quehacer arquitectónico, sin duda no escapa a todas estas transformaciones y es el reflejo de la "cultura" de la época, con todo lo que ello significa.
                   </p>
@@ -48,7 +48,7 @@ function Index() {
                     Es un espacio formado por y para estudiantes de arquitectura, así como para profesores, arquitectos y para todo aquel interesado en conocer las características del espacio arquitectónico de toda una época, bajo una premisa: si conocemos nuestro pasado podremos valorarlo y solo así construir nuestro futuro.
                   </p>
                 </div>
-                <div className="flex flex-col items-start m-0 text-sm">
+                <div className="flex flex-col items-start m-0 text-xs 2xl:text-base">
                   <p className="text-gray-500"><em>Arq. Rosa Alejandra Guzmán Martínez</em></p>
                   <p className="text-gray-500"><em>Profesora de la Facultad de Estudios Superiores Acatlán, UNAM</em></p>
                   <p className="text-gray-500"><em>Arquitectura</em></p>
