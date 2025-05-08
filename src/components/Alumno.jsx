@@ -18,7 +18,7 @@ function Alumno({ ruta, usuario, rol, equipo, onSectionClick }) {
           />
         </div>
         
-        <div className="w-full flex flex-col items-center space-y-4">
+        <div className="w-full flex flex-col items-center space-y-2">
           <div className="flex flex-col w-full ml-4">
             <h1 className="text-lg md:text-2xl 2xl:text-3xl font-medium">{usuario}</h1>
             <div className="flex w-full gap-2">
@@ -27,7 +27,7 @@ function Alumno({ ruta, usuario, rol, equipo, onSectionClick }) {
             </div>
           </div>
           
-          <div className="flex justify-end space-x-2 mt-4 w-full">
+          <div className="flex justify-end w-full">
 
 
             <div className="relative group">

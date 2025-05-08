@@ -31,9 +31,9 @@ function Tarjeta({ ruta, className }) {
             </div>
           </div>
           
-          <div className="flex items-center space-x-3 text-xs mt-2">
-            <p className="bg-green-300 px-2 py-1 rounded-lg">Aprobado</p>
-            <p className="bg-gray-300 px-2 py-1 rounded-lg">15/06/2024</p>
+          <div className="flex items-center space-x-3 text-xs text-blancoPrincipal mt-2">
+            <p className="bg-[#82D151]/40 px-2 py-1 rounded-lg">Aprobado</p>
+            <p className="bg-gray-300/40 px-2 py-1 rounded-lg">15/06/2024</p>
           </div>
           
           <div className="pt-3 flex flex-row justify-start items-center space-x-2 text-xs md:text-sm">

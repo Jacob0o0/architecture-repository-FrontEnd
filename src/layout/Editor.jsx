@@ -41,8 +41,7 @@ function Editor() {
           equipo="Equipo 6"
           onSectionClick={handleSectionClick}
         />
-        
-        {/* Ahora puedes controlar exactamente el ancho que quieres para la tarjeta */}
+
         <Tarjeta
           ruta="../imgs/kiosco-morisco.jpg"
           className="w-1/2 h-2/3"  // Puedes poner cualquier clase de ancho aquí: w-1/4, w-64, etc.
